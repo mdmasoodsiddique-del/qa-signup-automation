@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+recorded_*.py
+reports/*
+!reports/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+videos/*
+!videos/.gitkeep
+*.webm
+.pytest_cache/

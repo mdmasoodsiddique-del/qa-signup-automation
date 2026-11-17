@@ -1,0 +1,31 @@
+{
+  "valid_user": {
+    "first_name": "Test",
+    "last_name": "Agent",
+    "agency_name": "Test Agency QA",
+    "role": "Manager",
+    "website": "www.testagency.com",
+    "address": "Test Street 1, Kathmandu",
+    "region": "Canada",
+    "years_of_experience": "5 years",
+    "students_per_year": "50",
+    "focus_area": "Undergraduate admissions",
+    "success_metric": "80",
+    "service": "Admission Applications",
+    "registration_number": "REG-TEST-12345",
+    "institution_type": "Universities"
+  },
+  "invalid_values": {
+    "bad_email": "not-an-email",
+    "short_password": "abc12",
+    "bad_phone": "123",
+    "bad_website": "https://tes"
+  },
+  "observed_messages": {
+    "phone_format": "valid phone number",
+    "phone_duplicate": "already exist",
+    "password_short": "at least 8 characters",
+    "website_invalid": "valid domain",
+    "document_required": "at least one document"
+  }
+}
